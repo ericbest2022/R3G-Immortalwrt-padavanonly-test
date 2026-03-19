@@ -9,3 +9,6 @@
 WiFi名称：ImmortalWrt
 
 WiFi密码：123456789
+
+# 好用稳定
+https://github.com/OldCoding/MI-R3G-immortalwrt-build.git
