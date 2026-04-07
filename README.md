@@ -15,7 +15,7 @@ luci-app-upnp
 luci-app-vlmcsd
 
 
-## 可以删除
+## 删除插件
 luci-app-ssr-plus
 luci-app-adguardhome
 luci-app-mosdns
