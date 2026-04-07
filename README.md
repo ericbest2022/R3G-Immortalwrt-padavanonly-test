@@ -28,7 +28,7 @@
 
 # 编译环境
 
-    借用【OldCoding/MI-R3G-immortalwrt-build】，分支改成了24.10
+    导入【OldCoding/MI-R3G-immortalwrt-build】，分支改成了24.10
     https://github.com/OldCoding/MI-R3G-immortalwrt-build
 
 
