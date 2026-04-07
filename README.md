@@ -4,26 +4,26 @@
 
 
 ## 原有插件
-luci-app-ssr-plus
-luci-app-adguardhome
-luci-app-mosdns
-luci-app-ddns
-luci-app-smartdns
-luci-app-watchcat
-luci-app-openlist
-luci-app-upnp
-luci-app-vlmcsd
+	luci-app-ssr-plus
+	luci-app-adguardhome
+	luci-app-mosdns
+	luci-app-ddns
+	luci-app-smartdns
+	luci-app-watchcat
+	luci-app-openlist
+	luci-app-upnp
+	luci-app-vlmcsd
 
 
 ## 删除插件
-luci-app-ssr-plus
-luci-app-adguardhome
-luci-app-mosdns
-luci-app-ddns
-luci-app-smartdns
-luci-app-watchcat
-luci-app-openlist
-luci-app-vlmcsd
+	luci-app-ssr-plus
+	luci-app-adguardhome
+	luci-app-mosdns
+	luci-app-ddns
+	luci-app-smartdns
+	luci-app-watchcat
+	luci-app-openlist
+	luci-app-vlmcsd
 
 
 ## Version
