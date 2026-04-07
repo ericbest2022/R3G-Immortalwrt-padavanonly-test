@@ -139,35 +139,35 @@ jobs:
 
         # LuCI插件选择:
         cat >> .config <<EOF
-        CONFIG_PACKAGE_luci-app-adguardhome=y
+        #D1 CONFIG_PACKAGE_luci-app-adguardhome=y
         CONFIG_PACKAGE_luci-app-autoreboot=y
-        CONFIG_PACKAGE_luci-app-ddns=y
+        #D1 CONFIG_PACKAGE_luci-app-ddns=y
         CONFIG_PACKAGE_luci-app-diskman=y
         CONFIG_PACKAGE_easytier=y
         CONFIG_PACKAGE_luci-app-easytier=y
         CONFIG_PACKAGE_luci-app-firewall=y
         CONFIG_PACKAGE_luci-app-hd-idle=y
-        CONFIG_PACKAGE_luci-app-ssr-plus=y
-        CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
-        CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Client=y
-        CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Server=y
+        #D1 CONFIG_PACKAGE_luci-app-ssr-plus=y
+        #D1 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray=y
+        #D1 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Client=y
+        #D1 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Server=y
         # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client is not set
         # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Server is not set
-        CONFIG_PACKAGE_luci-app-smartdns=y
-        CONFIG_PACKAGE_smartdns-ui=y
-        CONFIG_PACKAGE_luci-app-mosdns=y
+        #D1 CONFIG_PACKAGE_luci-app-smartdns=y
+        #D1 CONFIG_PACKAGE_smartdns-ui=y
+        #D1 CONFIG_PACKAGE_luci-app-mosdns=y
         CONFIG_PACKAGE_luci-app-turboacc=y
         CONFIG_PACKAGE_luci-app-ttyd=y
-        CONFIG_PACKAGE_luci-app-openlist2=y
+        #D1 CONFIG_PACKAGE_luci-app-openlist2=y
         CONFIG_PACKAGE_luci-app-passwall=y
         CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client=y
         CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Server=y
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
         # CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server is not set
-        CONFIG_PACKAGE_luci-app-watchcat=y
+        #D1 CONFIG_PACKAGE_luci-app-watchcat=y
         CONFIG_PACKAGE_luci-app-webadmin=y
         CONFIG_PACKAGE_luci-app-upnp=y
-        CONFIG_PACKAGE_luci-app-vlmcsd=y
+        #D1 CONFIG_PACKAGE_luci-app-vlmcsd=y
         CONFIG_PACKAGE_luci-app-zerotier=y
         CONFIG_PACKAGE_luci-app-sqm=y
         EOF
@@ -183,12 +183,12 @@ jobs:
         CONFIG_PACKAGE_automount=y
         CONFIG_PACKAGE_autosamba=y
         CONFIG_PACKAGE_bind-host=y
-        CONFIG_PACKAGE_ddns-scripts_aliyun=y
-        CONFIG_PACKAGE_ddns-scripts-dnspod=y
-        CONFIG_PACKAGE_ddns-scripts-dnspod-com=y
+        #D1 CONFIG_PACKAGE_ddns-scripts_aliyun=y
+        #D1 CONFIG_PACKAGE_ddns-scripts-dnspod=y
+        #D1 CONFIG_PACKAGE_ddns-scripts-dnspod-com=y
         CONFIG_PACKAGE_default-settings-chn=y
         CONFIG_PACKAGE_kmod-sched-red=y
-        CONFIG_PACKAGE_smartdns-ui=y
+        #D1 CONFIG_PACKAGE_smartdns-ui=y
         EOF
 
         # 取消编译VMware镜像以及镜像填充 (不要删除被缩进的注释符号):
