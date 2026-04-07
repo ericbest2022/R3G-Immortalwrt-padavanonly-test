@@ -3,6 +3,21 @@
 # 测试中
 
 
+
+原有插件	名称	删除插件
+PassWall	luci-app-passwall	
+ShadowSocksR Plus+	luci-app-ssr-plus	luci-app-ssr-plus
+AdGuard Home	luci-app-adguardhome	luci-app-adguardhome
+MosDNS	luci-app-mosdns	luci-app-mosdns
+动态DNS	luci-app-ddns	luci-app-ddns
+SmartDNS	luci-app-smartdns	luci-app-smartdns
+Watchcat	luci-app-watchcat	luci-app-watchcat
+OpenList	luci-app-openlist	luci-app-openlist
+UPnPIGD和 PCP	luci-app-upnp	
+Vlmcsd KMS服务器	luci-app-vlmcsd	luci-app-vlmcsd
+<img width="574" height="210" alt="image" src="https://github.com/user-attachments/assets/ffd3c123-65de-49ca-aa3b-b74d1398d195" />
+
+
 ## Version
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   
