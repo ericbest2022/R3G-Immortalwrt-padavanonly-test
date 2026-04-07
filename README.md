@@ -27,21 +27,16 @@
 
 
 ## Version
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  
-  REPO_BRANCH: openwrt-24.10
+	REPO_URL: https://github.com/immortalwrt/immortalwrt
+	REPO_BRANCH: openwrt-24.10
 
 
 # 默认设置
-默认IP：192.168.10.1
-
-用户名：root
-
-密码：password
-
-WiFi名称：ImmortalWrt
-
-WiFi密码：123456789
+	默认IP：192.168.10.1
+	用户名：root
+	密码：password
+	WiFi名称：ImmortalWrt
+	WiFi密码：123456789
 
 
 
